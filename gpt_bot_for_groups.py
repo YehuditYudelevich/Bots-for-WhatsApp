@@ -93,7 +93,7 @@ def ask_gpt(prompt):
         return None
 
 
-group_names = ['הדשא של מדעני המחשב באו"פ']
+group_names = ['']
 
 
 
