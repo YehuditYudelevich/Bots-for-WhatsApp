@@ -8,7 +8,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #API KEY
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 # OpenAI API
 openai.api_key = OPENAI_API_KEY

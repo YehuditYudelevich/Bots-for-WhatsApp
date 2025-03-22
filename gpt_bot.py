@@ -8,10 +8,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #API KEY- you need to get your own API key from OpenAI
-OPENAI_API_KEY = ""
+OPENAI_KEY_PLACEHOLDER = ""
 
 # OpenAI API
-openai.api_key = OPENAI_API_KEY
+openai.api_key = OPENAI_KEY_PLACEHOLDER
 chrome_driver_path = r"C:\Users\The user\Downloads\chromedriver-win64\chromedriver.exe"
 service = Service(chrome_driver_path)
 
